@@ -530,7 +530,7 @@ input[type=date] {
 .growthmain h1 {
     text-align: center;
     color: #3c3c3f; 
-    padding: 50px;
+    padding: 50px 50px 10px 50px;
 }
 
 .growthbox {
@@ -539,4 +539,19 @@ input[type=date] {
     justify-content: center;
     text-align: center;
     padding: 10px;
+    margin:  10px 70px 70px 70px;
+}
+
+.growthbox h5{
+    color: #7e7e8c;
+    padding: 10px;
+}
+
+.textnu{
+    font-size: 50px;
+    color: tomato;
+}
+
+.growthbox p{
+      padding: 10px 80px 10px 80px;
 }
