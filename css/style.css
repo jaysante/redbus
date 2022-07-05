@@ -269,12 +269,14 @@ input[type=date] {
 
 }
 
-/* .info1{
+.info1{
     background-image: url(../images/png2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #eee;
-} */
+    margin-bottom: 30px;
+    color: rgb(224, 206, 206);
+}
+
 .info1main {
     display: inline-block;
     vertical-align: middle;
@@ -483,7 +485,7 @@ input[type=date] {
 
 .flags {
     background-color: #eee;
-    border: solid 1px #d7d7db; 
+    border: solid 1px #d7d7db;
     text-align: center;
     font-size: 30px;
     /*     
@@ -529,7 +531,7 @@ input[type=date] {
 
 .growthmain h1 {
     text-align: center;
-    color: #3c3c3f; 
+    color: #3c3c3f;
     padding: 50px 50px 10px 50px;
 }
 
@@ -539,19 +541,177 @@ input[type=date] {
     justify-content: center;
     text-align: center;
     padding: 10px;
-    margin:  10px 70px 70px 70px;
+    margin: 10px 70px 70px 70px;
 }
 
-.growthbox h5{
+.growthbox h5 {
     color: #7e7e8c;
     padding: 10px;
 }
 
-.textnu{
+.textnu {
     font-size: 50px;
     color: tomato;
 }
 
-.growthbox p{
-      padding: 10px 80px 10px 80px;
+.growthbox p {
+    padding: 10px 80px 10px 80px;
 }
+
+
+/* ********* Road info ******** */
+
+.road {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    border: rgb(124, 121, 121);
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin-top: 70px;
+    padding: 70px 70PX 70PX 70px;
+}
+
+.roadbox h6 {
+    margin: 0px 0px 15px 0px;
+    font-size: 15px;
+    color: #444343;
+}
+
+.roadbox p {
+    margin: 0px 0px 15px 0px;
+    font-size: 15px;
+    color: #696970;
+}
+
+/* 2 */
+
+.TopOperators {
+    background-color: #eee;
+    color: #444343;
+    height: 340px;
+    /* width: 1350px; */
+}
+
+.mainbody {
+    display: flex;
+    margin-left: 100px;
+    border-top: 1px solid #999;
+    padding: 40px 30px 5px 30px;
+    /* padding-top: 40px;
+    padding-bottom: 10px; */
+}
+
+.mainbody h6 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.mainbody li {
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.mainbody li a {
+    text-decoration: none;
+    color: #696970;
+    font-size: 15px;
+}
+
+.TopOperators li {
+    float: left;
+    padding: 0 10px 0 0;
+    margin-right: 10px;
+    border-right: 1px solid #999;
+    line-height: 22px;
+    margin-bottom: 10px;
+
+}
+
+.morlink a {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+
+}
+
+.lia h5 {
+
+    color: black;
+    text-align: right;
+    padding: 0px 40px 0px 30px;
+    font-size: 14px;
+}
+
+
+/* ***************footer************* */
+
+.footerelime {
+    background-color: #1B2330;
+    height: 360px;
+    /* padding: 0px 50px; */
+
+}
+
+.footermenu {
+    display: grid;
+    grid-template-columns: auto 40%;
+    margin: 0px 10px 40px 70px;
+    /* text-align: left;
+    justify-content: space-around;
+    padding: 30px 0px ; */
+
+}
+
+.menuway {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 35px 0px 35px 60px;
+}
+
+.menuway h6 {
+    color: rgb(116, 111, 111);
+    font-size: 14px;
+    margin: 0px 0px 19px 0px;
+
+}
+
+.menuway p {
+    text-align: left;
+    color: #e0d8d8;
+    font-size: 14px;
+    margin: 0px 0px 12px 0px;
+
+}
+ 
+.rightmenu{
+    width: 335px;
+    line-height: 27px ;
+    margin: 35px 0px 35px 60px;
+}
+
+.rightmenu img{
+    padding-bottom: 6px;
+    /* size: 40px;
+    padding: 0px 0px 10px 8px ; */
+
+}
+
+.rightmenu p{
+    font-size: 15px;
+    color: #e0d8d8;
+
+}
+
+.rightmenu div{
+    font-size: 14px;
+    color: #e0d8d8;
+
+}
+
+/* End */
