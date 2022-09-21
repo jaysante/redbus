@@ -1,0 +1,102 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 800px) {
+  .main-offer-box {
+    top: 57%;
+    width: 50%;
+}
+  .hero input[type="text"] {
+    padding: 9px 5px;
+    margin: -3px;
+  }
+
+  input[type="submit"] {
+    padding: 9px 5px;
+    padding-right: 35px;
+  }
+  input[type="date"] {
+    padding: 9px 5px;
+    margin: -3px;
+  }
+  .grid-container {
+    display: block;
+  }
+
+  .grid-container div {
+    margin-bottom: 20px;
+    padding: 30px 60px 30px 60px;
+  }
+  .info {
+    margin: 5%;
+  }
+  .info img {
+    padding-right: 10px;
+  }
+  .infot {
+    padding-left: 20px;
+  }
+  .info1 h2 {
+    font-size: 25px;
+    line-height: 1.1em;
+    padding-bottom: 10px;
+  }
+  .info1 p {
+    font-size: 14px;
+  }
+  /* *************************************** */
+  .info1main {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 552px;
+    padding: 18px 20px;
+  }
+  .road {
+    margin-top: 70px;
+    padding: 70px 70px 70px 70px;
+  }
+  .TopOperators {
+    height: 500px;
+  }
+  .mainbody {
+    margin-left: 50px;
+    padding: 40px 30px 25px 21px;
+  }
+  .footermenu {
+    margin: 0px 10px 40px 12px;
+  }
+  .menuway p {
+    font-size: 12px;
+  }
+  .rightmenu {
+    margin: 35px 20px 35px 20px;
+  }
+  .rightmenu div {
+    font-size: 12px;
+  }
+  .rightmenu a img {
+    height: 30px;
+    width: 30px;
+  }
+  .rightmenu p {
+    font-size: 14px;
+  }
+  .footer4 {
+    margin-right: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
